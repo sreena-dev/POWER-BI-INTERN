@@ -4,38 +4,37 @@
 - Learn the fundamental syntax of SQL queries, including selecting, filtering, and ordering data.
 - The SELECT statement retrieves data from a database table.
 Syntax:
-'''sql
+```sql
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
-'''
+```
 Replace column1, column2, etc. with the specific columns you want to retrieve.
 Specify the table_name from which you’re fetching data.
 Optionally, use the WHERE clause to filter rows based on specific conditions.
 
-Filtering Data:
+## Filtering Data:
 Use the WHERE clause to filter rows based on specific conditions.
 Example:
-SQL
-
+```sql
 SELECT product_name, price
 FROM products
 WHERE category = 'Electronics';
-AI-generated code. Review and use carefully. More info on FAQ.
+```
 This query retrieves the names and prices of products in the “Electronics” category.
-Ordering Data:
+
+##Ordering Data:
+
 The ORDER BY clause sorts query results based on a specified column.
 Syntax:
-SQL
-
+```sql
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition
 ORDER BY column ASC/DESC;
-AI-generated code. Review and use carefully. More info on FAQ.
+```
 Replace column with the column you want to sort by.
 Use ASC for ascending order (default) or DESC for descending order.
-
 
 ## Data Definition Language (DDL)
 - Explore DDL statements for creating, modifying, and deleting database objects (tables, indexes, views).
